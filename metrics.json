@@ -1,0 +1,96 @@
+{
+  "submissions": 240,
+  "institutions": 20,
+  "flag_count": 77,
+  "filings_with_flags": 43,
+  "by_check": [
+    {
+      "check": "Quarter-on-quarter jump",
+      "count": 31
+    },
+    {
+      "check": "Peer outlier",
+      "count": 12
+    },
+    {
+      "check": "Missing value",
+      "count": 12
+    },
+    {
+      "check": "Ratio does not match components",
+      "count": 10
+    },
+    {
+      "check": "Accounting identity",
+      "count": 5
+    },
+    {
+      "check": "Sign error",
+      "count": 4
+    },
+    {
+      "check": "Outside plausibility bound",
+      "count": 3
+    }
+  ],
+  "by_quarter": [
+    {
+      "quarter": "2022Q1",
+      "count": 2
+    },
+    {
+      "quarter": "2022Q2",
+      "count": 5
+    },
+    {
+      "quarter": "2022Q3",
+      "count": 9
+    },
+    {
+      "quarter": "2022Q4",
+      "count": 5
+    },
+    {
+      "quarter": "2023Q1",
+      "count": 10
+    },
+    {
+      "quarter": "2023Q2",
+      "count": 7
+    },
+    {
+      "quarter": "2023Q3",
+      "count": 6
+    },
+    {
+      "quarter": "2023Q4",
+      "count": 5
+    },
+    {
+      "quarter": "2024Q1",
+      "count": 11
+    },
+    {
+      "quarter": "2024Q2",
+      "count": 8
+    },
+    {
+      "quarter": "2024Q3",
+      "count": 2
+    },
+    {
+      "quarter": "2024Q4",
+      "count": 7
+    }
+  ],
+  "by_severity": [
+    {
+      "severity": "High",
+      "count": 31
+    },
+    {
+      "severity": "Medium",
+      "count": 46
+    }
+  ]
+}

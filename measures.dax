@@ -1,0 +1,16 @@
+-- Calculated column on the flags table (create this before the measures):
+-- filing_key = flags[institution_id] & "|" & flags[quarter]
+
+Filings = COUNTROWS(submissions)
+
+Flags = COUNTROWS(flags)
+
+Filings with a flag = DISTINCTCOUNT(flags[filing_key])
+
+High severity flags =
+CALCULATE(COUNTROWS(flags), flags[severity] = "High")
+
+Medium severity flags =
+CALCULATE(COUNTROWS(flags), flags[severity] = "Medium")
+
+Flag rate = DIVIDE([Filings with a flag], [Filings])

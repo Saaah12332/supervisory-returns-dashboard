@@ -1,0 +1,78 @@
+flag_id,institution_id,institution,peer_group,quarter,check,field,severity,value,detail
+F0001,INS03,Cedar & Holm,Universal,2024Q4,Missing value,High-quality liquid assets,High,,High-quality liquid assets was left blank.
+F0002,INS05,Eastlane Mutual,Mutual,2022Q3,Ratio does not match components,NPL ratio,High,7.72,Reported NPL ratio is 7.72%. NPL / loans is 1.22%.
+F0003,INS05,Eastlane Mutual,Mutual,2024Q4,Missing value,NPL amount,High,,NPL amount was left blank.
+F0004,INS06,Fairhaven Trust,Trust,2022Q3,Ratio does not match components,LCR,Medium,585.6,Reported LCR is 585.6%. HQLA / net outflows is 141.3%.
+F0005,INS06,Fairhaven Trust,Trust,2022Q3,Outside plausibility bound,LCR,High,585.6,"LCR is 585.60, outside 40–350."
+F0006,INS06,Fairhaven Trust,Trust,2023Q3,Ratio does not match components,LCR,Medium,453.9,Reported LCR is 453.9%. HQLA / net outflows is 153.6%.
+F0007,INS06,Fairhaven Trust,Trust,2023Q3,Outside plausibility bound,LCR,High,453.9,"LCR is 453.90, outside 40–350."
+F0008,INS07,Greyharbour Bank,Commercial,2022Q1,Sign error,Gross loans,High,-3272.7,Gross loans are negative.
+F0009,INS08,Highford Retail Bank,Retail,2022Q2,Ratio does not match components,CET1 ratio,High,22.05,Reported CET1 ratio is 22.05%. CET1 / RWA is 14.05%.
+F0010,INS08,Highford Retail Bank,Retail,2024Q4,Ratio does not match components,NPL ratio,High,8.99,Reported NPL ratio is 8.99%. NPL / loans is 2.49%.
+F0011,INS09,Iverson Civic,Civic,2023Q1,Ratio does not match components,CET1 ratio,High,21.4,Reported CET1 ratio is 21.40%. CET1 / RWA is 13.40%.
+F0012,INS11,Keel & Moss,Commercial,2024Q1,Accounting identity,Total assets,High,363596.4,"Assets minus liabilities minus equity is 363,596.4. Tolerance is 2% of assets."
+F0013,INS12,Lowridge Bank,Retail,2022Q4,Accounting identity,Total assets,High,116405.1,"Assets minus liabilities minus equity is 116,405.1. Tolerance is 2% of assets."
+F0014,INS12,Lowridge Bank,Retail,2024Q1,Ratio does not match components,CET1 ratio,High,21.99,Reported CET1 ratio is 21.99%. CET1 / RWA is 13.99%.
+F0015,INS13,Marrowgate Savings,Savings,2022Q2,Missing value,NPL amount,High,,NPL amount was left blank.
+F0016,INS14,Northglass Bank,Universal,2022Q1,Missing value,High-quality liquid assets,High,,High-quality liquid assets was left blank.
+F0017,INS14,Northglass Bank,Universal,2024Q2,Missing value,Net income,High,,Net income was left blank.
+F0018,INS15,Orchard Civic,Civic,2022Q2,Missing value,Net income,High,,Net income was left blank.
+F0019,INS15,Orchard Civic,Civic,2023Q1,Ratio does not match components,NPL ratio,High,9.85,Reported NPL ratio is 9.85%. NPL / loans is 3.35%.
+F0020,INS15,Orchard Civic,Civic,2024Q2,Accounting identity,Total assets,High,2158.8,"Assets minus liabilities minus equity is 2,158.8. Tolerance is 2% of assets."
+F0021,INS15,Orchard Civic,Civic,2024Q2,Sign error,Total equity,High,-1079.4,Total equity is negative.
+F0022,INS16,Plover Mutual,Mutual,2023Q4,Sign error,Gross loans,High,-1990.0,Gross loans are negative.
+F0023,INS17,Quayline Bank,Commercial,2023Q1,Missing value,Provisions,High,,Provisions was left blank.
+F0024,INS17,Quayline Bank,Commercial,2023Q2,Accounting identity,Total assets,High,754266.6,"Assets minus liabilities minus equity is 754,266.6. Tolerance is 2% of assets."
+F0025,INS17,Quayline Bank,Commercial,2023Q3,Missing value,High-quality liquid assets,High,,High-quality liquid assets was left blank.
+F0026,INS17,Quayline Bank,Commercial,2024Q3,Accounting identity,Total assets,High,14841.8,"Assets minus liabilities minus equity is 14,841.8. Tolerance is 2% of assets."
+F0027,INS17,Quayline Bank,Commercial,2024Q3,Sign error,Total equity,High,-7420.9,Total equity is negative.
+F0028,INS18,Redwillow Trust,Trust,2022Q3,Missing value,Provisions,High,,Provisions was left blank.
+F0029,INS18,Redwillow Trust,Trust,2023Q4,Ratio does not match components,NPL ratio,High,7.86,Reported NPL ratio is 7.86%. NPL / loans is 1.36%.
+F0030,INS18,Redwillow Trust,Trust,2024Q1,Ratio does not match components,LCR,Medium,841.0,Reported LCR is 841.0%. HQLA / net outflows is 146.6%.
+F0031,INS18,Redwillow Trust,Trust,2024Q1,Outside plausibility bound,LCR,High,841.0,"LCR is 841.00, outside 40–350."
+F0032,INS18,Redwillow Trust,Trust,2024Q2,Missing value,Provisions,High,,Provisions was left blank.
+F0033,INS19,Southmere Building Society,Building society,2023Q2,Missing value,Net income,High,,Net income was left blank.
+F0034,INS20,Thornfield Bank,Retail,2023Q2,Missing value,NPL amount,High,,NPL amount was left blank.
+F0035,INS08,Highford Retail Bank,Retail,2022Q2,Peer outlier,CET1 ratio,Medium,22.05,CET1 ratio robust z-score versus the other filings this quarter is 5.7.
+F0036,INS09,Iverson Civic,Civic,2023Q1,Peer outlier,CET1 ratio,Medium,21.4,CET1 ratio robust z-score versus the other filings this quarter is 4.7.
+F0037,INS12,Lowridge Bank,Retail,2024Q1,Peer outlier,CET1 ratio,Medium,21.99,CET1 ratio robust z-score versus the other filings this quarter is 7.2.
+F0038,INS05,Eastlane Mutual,Mutual,2022Q3,Peer outlier,NPL ratio,Medium,7.72,NPL ratio robust z-score versus the other filings this quarter is 6.7.
+F0039,INS15,Orchard Civic,Civic,2023Q1,Peer outlier,NPL ratio,Medium,9.85,NPL ratio robust z-score versus the other filings this quarter is 6.9.
+F0040,INS18,Redwillow Trust,Trust,2023Q4,Peer outlier,NPL ratio,Medium,7.86,NPL ratio robust z-score versus the other filings this quarter is 5.1.
+F0041,INS08,Highford Retail Bank,Retail,2024Q4,Peer outlier,NPL ratio,Medium,8.99,NPL ratio robust z-score versus the other filings this quarter is 9.9.
+F0042,INS06,Fairhaven Trust,Trust,2022Q3,Peer outlier,LCR,Medium,585.6,LCR robust z-score versus the other filings this quarter is 33.7.
+F0043,INS06,Fairhaven Trust,Trust,2023Q3,Peer outlier,LCR,Medium,453.9,LCR robust z-score versus the other filings this quarter is 56.3.
+F0044,INS18,Redwillow Trust,Trust,2024Q1,Peer outlier,LCR,Medium,841.0,LCR robust z-score versus the other filings this quarter is 76.3.
+F0045,INS17,Quayline Bank,Commercial,2023Q2,Peer outlier,Total assets,Medium,838074.0,Total assets robust z-score versus the other filings this quarter is 32.4.
+F0046,INS11,Keel & Moss,Commercial,2024Q1,Peer outlier,Total assets,Medium,403996.0,Total assets robust z-score versus the other filings this quarter is 12.0.
+F0047,INS03,Cedar & Holm,Universal,2022Q4,Quarter-on-quarter jump,CET1 ratio,Medium,18.85,CET1 ratio moved by 5.15 versus the previous quarter (13.70 → 18.85).
+F0048,INS03,Cedar & Holm,Universal,2023Q1,Quarter-on-quarter jump,CET1 ratio,Medium,14.71,CET1 ratio moved by 4.14 versus the previous quarter (18.85 → 14.71).
+F0049,INS03,Cedar & Holm,Universal,2024Q4,Quarter-on-quarter jump,CET1 ratio,Medium,11.67,CET1 ratio moved by 4.02 versus the previous quarter (15.69 → 11.67).
+F0050,INS08,Highford Retail Bank,Retail,2022Q2,Quarter-on-quarter jump,CET1 ratio,Medium,22.05,CET1 ratio moved by 7.76 versus the previous quarter (14.29 → 22.05).
+F0051,INS08,Highford Retail Bank,Retail,2022Q3,Quarter-on-quarter jump,CET1 ratio,Medium,14.32,CET1 ratio moved by 7.73 versus the previous quarter (22.05 → 14.32).
+F0052,INS09,Iverson Civic,Civic,2023Q1,Quarter-on-quarter jump,CET1 ratio,Medium,21.4,CET1 ratio moved by 7.13 versus the previous quarter (14.27 → 21.40).
+F0053,INS09,Iverson Civic,Civic,2023Q2,Quarter-on-quarter jump,CET1 ratio,Medium,13.26,CET1 ratio moved by 8.14 versus the previous quarter (21.40 → 13.26).
+F0054,INS12,Lowridge Bank,Retail,2024Q1,Quarter-on-quarter jump,CET1 ratio,Medium,21.99,CET1 ratio moved by 8.04 versus the previous quarter (13.95 → 21.99).
+F0055,INS12,Lowridge Bank,Retail,2024Q2,Quarter-on-quarter jump,CET1 ratio,Medium,14.81,CET1 ratio moved by 7.18 versus the previous quarter (21.99 → 14.81).
+F0056,INS20,Thornfield Bank,Retail,2023Q1,Quarter-on-quarter jump,CET1 ratio,Medium,16.27,CET1 ratio moved by 4.81 versus the previous quarter (11.46 → 16.27).
+F0057,INS05,Eastlane Mutual,Mutual,2022Q3,Quarter-on-quarter jump,NPL ratio,Medium,7.72,NPL ratio moved by 4.36 versus the previous quarter (3.36 → 7.72).
+F0058,INS05,Eastlane Mutual,Mutual,2022Q4,Quarter-on-quarter jump,NPL ratio,Medium,2.38,NPL ratio moved by 5.34 versus the previous quarter (7.72 → 2.38).
+F0059,INS08,Highford Retail Bank,Retail,2024Q4,Quarter-on-quarter jump,NPL ratio,Medium,8.99,NPL ratio moved by 6.31 versus the previous quarter (2.68 → 8.99).
+F0060,INS13,Marrowgate Savings,Savings,2024Q4,Quarter-on-quarter jump,NPL ratio,Medium,4.93,NPL ratio moved by 3.23 versus the previous quarter (1.70 → 4.93).
+F0061,INS15,Orchard Civic,Civic,2023Q1,Quarter-on-quarter jump,NPL ratio,Medium,9.85,NPL ratio moved by 6.50 versus the previous quarter (3.35 → 9.85).
+F0062,INS15,Orchard Civic,Civic,2023Q2,Quarter-on-quarter jump,NPL ratio,Medium,2.69,NPL ratio moved by 7.16 versus the previous quarter (9.85 → 2.69).
+F0063,INS18,Redwillow Trust,Trust,2023Q4,Quarter-on-quarter jump,NPL ratio,Medium,7.86,NPL ratio moved by 5.48 versus the previous quarter (2.38 → 7.86).
+F0064,INS18,Redwillow Trust,Trust,2024Q1,Quarter-on-quarter jump,NPL ratio,Medium,2.69,NPL ratio moved by 5.17 versus the previous quarter (7.86 → 2.69).
+F0065,INS20,Thornfield Bank,Retail,2024Q2,Quarter-on-quarter jump,NPL ratio,Medium,3.71,NPL ratio moved by 3.07 versus the previous quarter (0.64 → 3.71).
+F0066,INS06,Fairhaven Trust,Trust,2022Q3,Quarter-on-quarter jump,LCR,Medium,585.6,LCR moved by 449.50 versus the previous quarter (136.10 → 585.60).
+F0067,INS06,Fairhaven Trust,Trust,2022Q4,Quarter-on-quarter jump,LCR,Medium,148.3,LCR moved by 437.30 versus the previous quarter (585.60 → 148.30).
+F0068,INS06,Fairhaven Trust,Trust,2023Q3,Quarter-on-quarter jump,LCR,Medium,453.9,LCR moved by 307.20 versus the previous quarter (146.70 → 453.90).
+F0069,INS06,Fairhaven Trust,Trust,2023Q4,Quarter-on-quarter jump,LCR,Medium,146.3,LCR moved by 307.60 versus the previous quarter (453.90 → 146.30).
+F0070,INS18,Redwillow Trust,Trust,2024Q1,Quarter-on-quarter jump,LCR,Medium,841.0,LCR moved by 705.00 versus the previous quarter (136.00 → 841.00).
+F0071,INS18,Redwillow Trust,Trust,2024Q2,Quarter-on-quarter jump,LCR,Medium,147.4,LCR moved by 693.60 versus the previous quarter (841.00 → 147.40).
+F0072,INS11,Keel & Moss,Commercial,2024Q1,Quarter-on-quarter jump,Total assets,Medium,403996.0,"Total assets moved 904% versus the previous quarter (40,253.4 → 403,996.0)."
+F0073,INS11,Keel & Moss,Commercial,2024Q2,Quarter-on-quarter jump,Total assets,Medium,41416.9,"Total assets moved 90% versus the previous quarter (403,996.0 → 41,416.9)."
+F0074,INS12,Lowridge Bank,Retail,2022Q4,Quarter-on-quarter jump,Total assets,Medium,129339.0,"Total assets moved 902% versus the previous quarter (12,908.5 → 129,339.0)."
+F0075,INS12,Lowridge Bank,Retail,2023Q1,Quarter-on-quarter jump,Total assets,Medium,13161.6,"Total assets moved 90% versus the previous quarter (129,339.0 → 13,161.6)."
+F0076,INS17,Quayline Bank,Commercial,2023Q2,Quarter-on-quarter jump,Total assets,Medium,838074.0,"Total assets moved 914% versus the previous quarter (82,684.6 → 838,074.0)."
+F0077,INS17,Quayline Bank,Commercial,2023Q3,Quarter-on-quarter jump,Total assets,Medium,85072.7,"Total assets moved 90% versus the previous quarter (838,074.0 → 85,072.7)."
